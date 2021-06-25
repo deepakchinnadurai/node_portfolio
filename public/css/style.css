@@ -1,0 +1,163 @@
+.img{ 
+        background: url('https://p4.wallpaperbetter.com/wallpaper/661/628/932/3d-colorful-cube-dice-wallpaper-preview.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;  
+}
+
+.text{
+    color:white;
+    position: relative;
+    top:270px;
+    left:50px;
+}
+
+.nav{
+    color:white;
+    position:relative;
+    left:1000px;
+    bottom:130px;
+}
+
+.co{
+    color:white;
+    text-decoration: none;
+}
+.co:hover{
+    color:black;
+}
+
+
+
+/* this is for about page */
+
+
+.img1{ 
+    background: url('Untitled.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.name{
+    color:white;
+    position: relative;
+    top:100px;
+    left:100px;
+    
+}
+
+.nav1{
+    color:white;
+    position:relative;
+    left:900px;
+    bottom:50px;
+}
+
+.co1{
+    color:white;
+    text-decoration: none;
+}
+.co1:hover{
+    color:grey;
+}
+
+.text1{
+    color:white;
+    position: relative;
+    top:70px;
+    left:100px;
+}
+
+.about{
+    position: relative;
+    top:80px;
+    left:100px;
+    color:white;
+}
+
+.he{
+    height: 200px;
+    width:600px;
+}
+
+
+
+
+
+/* this is for contact */
+
+.img2{ 
+    background: url('https://free4kwallpapers.com/uploads/originals/2021/01/20/music-wallpaper.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.nav2{
+    color:white;
+    position:relative;
+    left:900px;
+    top:20px;
+
+}
+
+.po{
+    position: relative;
+    top:270px;
+    left:200px;
+}
+
+.po1{
+    position: relative;
+    top:270px;
+    left:900px;
+}
+
+
+
+/* this is for contact form */
+
+.img3{ 
+    background: url('https://fsb.zobj.net/crop.php?r=59B8oxT6a_OpTRgJhpsXmIIxLK-EbpkB8y7n74BAYyLBBRRz-D7VnaT0kl24dcq6StvpTLvB1SP2wh6Yzwpt65OuUk4Y0mrf429JAAiv_KC21CwR-fmWOxWhxJ2sGTb75FKXPI8FvHzZ0sLh') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.nav4{
+    color:white;
+    position:relative;
+    left:900px;
+    bottom:370px;
+
+}
+
+.mes{
+    background-color: white;
+    width:600px;
+    position: relative;
+    left:370px;
+    top:200px;
+    
+}
+
+
+.frm{
+    position: relative;
+    left:80px;
+}
+
+.te{
+    width:400px;
+    
+}
+
+.te1{
+    width:400px;
+    height: 200px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>about</title>
+<link rel = 'stylesheet' href="/css/style.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<body class="img1">
+
+  <h1 class="name">Hi! I am Dinesh</h1>
+  <ul class="nav1">
+    <a href="./home" class="co1" >Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="co1" href="./about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="co1" href="./works">Works</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="co1" href="./contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</ul>
+
+
+
+<button class = "btn btn-dark text1" onclick="typeWriter()">Click me</button>
+<div class="he"><p class="about" id="demo"></p>
+</div>
+
+
+<script>
+var i = 0;
+var txt = 'Mechanical engineer turned out to be a music composer.I founded my own creative studio KD Musicals in 2017  currently living in Tamilnadu,India.I like to bring my thoughts into music with sophisticated simplicity and thoughtful details. ';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
